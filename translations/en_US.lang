@@ -26,6 +26,8 @@ aiohttp_error=Old aiohttp error. This error is from discord.py==1.7.3.\nTrying t
 aiohttp_success=Restarting...
 weird_error=Maybe a config error. Make sure all informations in config_selfbot.py are correct.\nError:
 expired_token=Account's Token has changed. Please insert the new one into config_selfbot.py
+presence_set_success=Automatic presence enabled
+presence_set_fail=Error enabling auto-presence
 
 
 # == Main ==
@@ -85,12 +87,16 @@ help_fun_slap=Send a slap GIF.
 help_raid_banall=Ban all members.
 help_raid_kick=Kick all members.
 help_tools_rac=Rename all channels.
+help_raid_nickall=Rename all users on a server
+help_raid_dmallguild=Send a message to all members of a specific server via DM.\n\n**How to use it:**\n`%prefix%dmallguild <message>` - Sends a message to all members of the server.
+
 
 # -- Help: Tools --
 help_tools_dmall=Send a private message to your all of your friends.
 help_tools_close_dm=Close all your DMs.
 help_tools_close_dm_bots=Close all your DMs with bots.
 help_tools_bump=Automatically bump with Disboard.
+help_tools_delete_all_dms=Deletes all your private messages with users.\n\n**How to use it:**\n`%prefix%deletealldms` - Deletes all your DMs with users. It's useful for keeping your private messages clean.
 
 # -- Help: Backup --
 help_backup_backups=Returns the list of available backups.
@@ -189,6 +195,18 @@ raid_dm_all_captcha=❌ Too many friends. Captcha required!
 raid_dm_all_success=✅ Succesfully sent message to all friends!
 rename_all_in_progress=☣️ Renaming of all channel on {guild_name} in progress...
 rename_all_success=✅ All channel in {guild_name} have been successfully renamed!
+nick_all_no_name=❌ You must specify a name
+nick_all_in_progress=☣️ Renaming users in {guild_name} in progress...
+nick_all_success=✅ All users have been successfully renamed!
+DMALLGUILD_NEED_GUILD_ID=❌ You must provide a guild ID if you are not in a guild.
+DMALLGUILD_INVALID_GUILD_ID=❌ Invalid guild ID.
+DMALLGUILD_EMPTY_MESSAGE=❌ Invalid or empty message.
+DMALLGUILD_GUILD_NOT_FOUND=❌ Guild not found or has no members.
+DMALLGUILD_SENDING_MESSAGES=☣️ Sending messages to all members of the guild...
+DMALLGUILD_CAPTCHA_DETECTED=❌ Captcha detected. Operation cancelled.
+DMALLGUILD_COMPLETED=✅ Messages sent to all members of the guild.
+
+
 
 # -- Commands: Fun --
 only_dm_fun=❌ You must use this command in DM!
@@ -212,6 +230,9 @@ tool_auto_bump_two=for the
 tool_auto_bump_three=time
 tool_auto_bump_four=Still need to bump
 tool_auto_bump_five=time in
+tool_delete_all_dms_in_progress=☣️ Deleting all DMs in progress...
+tool_delete_all_dms_success=✅ All DMs have been deleted!
+
 
 # -- Commands: Backup --
 backup_saving=🔁 Creating backup...

@@ -128,6 +128,7 @@ class HelpCommands(commands.Cog):
  `{config_selfbot.prefix}closealldm`: {lang.text('help_tools_close_dm')}
  `{config_selfbot.prefix}botclosedm`: {lang.text('help_tools_close_dm_bots')}
  `{config_selfbot.prefix}dmall`: {lang.text('help_tools_dmall')}
+ `{config_selfbot.prefix}deletealldms`: {lang.text('help_tools_delete_all_dms')}
  `{config_selfbot.prefix}bump <amount>`: {lang.text('help_tools_bump')}""", delete_after=config_selfbot.deltime)
 
     @commands.command()
@@ -160,11 +161,14 @@ class HelpCommands(commands.Cog):
         await ctx.message.edit(f"""☄ __**{config_selfbot.selfbot_name} :**__ ☄
 
 🏯| __**{lang.text('help_raid')}:**__
+`{config_selfbot.prefix}nickall alias : renameallmembers <name>`: {lang.text('help_raid_nickall')}
  `{config_selfbot.prefix}renameallchannel alias : rac <name>`: {lang.text('help_tools_rac')}
  `{config_selfbot.prefix}spam`: Spam. (`{config_selfbot.prefix}spam` 2 hello).
  `{config_selfbot.prefix}flood`: Flood.
  `{config_selfbot.prefix}kickall`: {lang.text('help_raid_kick')}
- `{config_selfbot.prefix}banall`: {lang.text('help_raid_banall')}""", delete_after=config_selfbot.deltime)
+ `{config_selfbot.prefix}banall`: {lang.text('help_raid_banall')}
+ `{config_selfbot.prefix}dmallguild`: {lang.text('help_raid_dmallguild')}""", delete_after=config_selfbot.deltime)
+
 
     @commands.command()
     async def utils(self, ctx: commands.Context):

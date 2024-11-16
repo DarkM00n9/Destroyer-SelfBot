@@ -26,7 +26,8 @@ aiohttp_error=Ancienne version d'aiohttp. Cette version est utilisé uniquement 
 aiohttp_success=Redémarrage en cours...
 weird_error=Peut-être une erreur de configuration. Assurez-vous que toutes les informations dans config_selfbot.py sont correctes.\nErreur:
 expired_token=Le Token du compte a changé. Merci d'insérer le nouveau dans config_selfbot.py
-
+presence_set_success=Présences automatique activé
+presence_set_fail=Erreur lors de l'activation de la presence automatique
 
 # == Main ==
 
@@ -85,12 +86,15 @@ help_fun_slap=Envoie une big gifle !!
 help_raid_banall=Bannis tout les membres du serveur.
 help_raid_kick=Expulse tout les membres du serveur.
 help_tools_rac=Renommer tous les salons.
+help_raid_nickall=Renommer tous les utilisateurs d'un serveur
+help_raid_dmallguild=Envoyer un message à tous les membres d'un serveur spécifique via DM.\n\n**Comment l'utiliser :**\n`%prefix%dmallguild <message>` - Envoie un message à tous les membres du serveur.
 
 # -- Help: Tools --
 help_tools_dmall=Envoi un message privé à toute votre liste d'amis.
 help_tools_close_dm=Ferme tout vos MP.
 help_tools_close_dm_bots=Ferme tout vos MP avec des bots.
 help_tools_bump=Bump automatiquement avec Disboard.
+help_tools_delete_all_dms=Supprimé tous vos messages privés avec les utilisateurs.\n\n**Comment l'utiliser :**\n`%prefix%deletealldms` - Supprime tous vos DM avec les utilisateurs. C'est utile pour garder les messages privés propres.
 
 # -- Help: Backup --
 help_backup_backups=Affiche la liste des sauvegarde de serveurs enregistrées.
@@ -189,6 +193,19 @@ raid_dm_all_captcha=❌ Amis trop nombreux. Captcha requis !
 raid_dm_all_success=✅ Message envoyé avec succès à la liste d'amis !
 rename_all_in_progress=☣️ Renommage de tous les salons sur {guild_name} en cours...
 rename_all_success=✅ Tous les salons de {guild_name} ont été renommés avec succès !
+nick_all_no_name=❌ Vous devez spécifier un nom
+nick_all_in_progress=☣️ Renommage des utilisateurs dans {guild_name} en cours...
+nick_all_success=✅ Tous les utilisateurs ont était renommé avec succès !
+DMALLGUILD_NEED_GUILD_ID=❌ Vous devez fournir un ID de guilde si vous êtes hors d'une guilde.
+DMALLGUILD_INVALID_GUILD_ID=❌ ID de guilde invalide.
+DMALLGUILD_EMPTY_MESSAGE=❌ Message invalide ou vide.
+DMALLGUILD_GUILD_NOT_FOUND=❌ Guilde introuvable ou sans membres.
+DMALLGUILD_SENDING_MESSAGES=☣️ Envoi de messages à tous les membres de la guilde en cours...
+DMALLGUILD_CAPTCHA_DETECTED=❌ Captcha détecté. Opération annulée.",
+DMALLGUILD_COMPLETED=✅ Messages envoyés à tous les membres de la guilde.
+
+
+
 
 # -- Commands: Fun --
 only_dm_fun=❌ Cette commande n'est disponible qu'en MP!
@@ -212,6 +229,8 @@ tool_auto_bump_two=pour la
 tool_auto_bump_three=fois
 tool_auto_bump_four=Encore besoin de bumper
 tool_auto_bump_five=fois dans
+tool_delete_all_dms_in_progress=☣️ Suppression des messages en DM en cours...
+tool_delete_all_dms_success=✅ Tous les messages en DM ont été supprimés !
 
 # -- Commands: Backup --
 backup_saving=🔁 Création de la backup en cours...
