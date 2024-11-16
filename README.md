@@ -8,7 +8,7 @@
   [![GitHub downloads](https://img.shields.io/github/downloads/DarkM00n9/Destroyer-SelfBot/total.svg?style=flat)](https://github.com/DarkM00n9/Destroyer-SelfBot/releases)
   [![GitHub stars](https://img.shields.io/github/stars/DarkM00n9/Destroyer-SelfBot.svg?style=flat)](https://github.com/DarkM00n9/Destroyer-SelfBot/stargazers)
   [![GitHub watchers](https://img.shields.io/github/watchers/DarkM00n9/Destroyer-SelfBot.svg?style=flat)](https://github.com/DarkM00n9/Destroyer-SelfBot/watchers)
-  [![CodeFactor](https://www.codefactor.io/repository/github/DarkM00n9/Destroyer-SelfBot/badge?style=flat)](https://www.codefactor.io/repository/github/DarkM00n9/Destroyer-SelfBot)
+  [![CodeFactor](https://www.codefactor.io/repository/github/darkm00n9/destroyer-selfbot/badge?style=flat)](https://www.codefactor.io/repository/github/darkm00n9/destroyer-selfbot)
   [![GitHub issues](https://img.shields.io/github/issues/DarkM00n9/Destroyer-SelfBot.svg?style=flat)](https://github.com/DarkM00n9/Destroyer-SelfBot/issues)
 </div>
 
