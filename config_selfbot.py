@@ -1,7 +1,7 @@
 from utils import rpc
 from utils.logger import log
 #######################
-#  selfbot            #
+#  selfbot            # 
 #        basic        #
 #         config ^^   #
 #######################
