@@ -8,13 +8,13 @@
   [![GitHub downloads](https://img.shields.io/github/downloads/DarkM00n9/Destroyer-SelfBot/total.svg?style=flat)](https://github.com/DarkM00n9/Destroyer-SelfBot/releases)
   [![GitHub stars](https://img.shields.io/github/stars/DarkM00n9/Destroyer-SelfBot.svg?style=flat)](https://github.com/DarkM00n9/Destroyer-SelfBot/stargazers)
   [![GitHub watchers](https://img.shields.io/github/watchers/DarkM00n9/Destroyer-SelfBot.svg?style=flat)](https://github.com/DarkM00n9/Destroyer-SelfBot/watchers)
-  [![CodeFactor](https://www.codefactor.io/repository/github/DarkM00n9/Destroyer-SelfBot/badge?style=flat)](https://www.codefactor.io/repository/github/DarkM00n9/Destroyer-SelfBot)
+  [![CodeFactor](https://www.codefactor.io/repository/github/darkm00n9/destroyer-selfbot/badge?style=flat)](https://www.codefactor.io/repository/github/darkm00n9/destroyer-selfbot)
   [![GitHub issues](https://img.shields.io/github/issues/DarkM00n9/Destroyer-SelfBot.svg?style=flat)](https://github.com/DarkM00n9/Destroyer-SelfBot/issues)
 </div>
 
 <div align="center">
 
-  [![Discord Support](https://dcbadge.limes.pink/api/server/https://discord.gg/cgfCch93Pu)](https://discord.gg/cgfCch93Pu)
+  [![Discord Support](https://dcbadge.limes.pink/api/server/https://discord.gg/JuUNzQdaDA)](https://discord.gg/JuUNzQdaDA)
 </div>
 
 ## 📖 Table of content
@@ -84,11 +84,11 @@ Now your token is in your clipboard. <br><br>
 
 ## 👀 Preview
 <div align="center">
-  <img src="https://i.imgur.com/aMiocj8.png" alt="preview" width="" height="">
+  <img src="https://imgur.com/kRgNROK.png" alt="preview" width="" height="">
 </div>
 <br>
 <div align="center">
-  <img src="https://i.imgur.com/FP6kCj6.png" alt="preview_second" width="" height="">
+  <img src="https://imgur.com/VsN9cUd.png" alt="preview_second" width="" height="">
 </div>
 
 
@@ -135,7 +135,7 @@ Just clone it with the green "Code" button above the README.
 
 # Support
 
-- Discord server: [https://discord.gg/cgfCch93Pu](https://discord.gg/cgfCch93Pu)
+- Discord server: [https://discord.gg/JuUNzQdaDA](https://discord.gg/JuUNzQdaDA)
 
 <br>
 
