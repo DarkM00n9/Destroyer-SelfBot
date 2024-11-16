@@ -14,7 +14,7 @@
 
 <div align="center">
 
-  [![Discord Support](https://dcbadge.limes.pink/api/server/https://discord.gg/cgfCch93Pu)](https://discord.gg/cgfCch93Pu)
+  [![Discord Support](https://dcbadge.limes.pink/api/server/https://discord.gg/JuUNzQdaDA)](https://discord.gg/JuUNzQdaDA)
 </div>
 
 ## 📖 Table of content
@@ -135,7 +135,7 @@ Just clone it with the green "Code" button above the README.
 
 # Support
 
-- Discord server: [https://discord.gg/cgfCch93Pu](https://discord.gg/cgfCch93Pu)
+- Discord server: [https://discord.gg/JuUNzQdaDA](https://discord.gg/JuUNzQdaDA)
 
 <br>
 
