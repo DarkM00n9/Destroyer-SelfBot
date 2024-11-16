@@ -7,9 +7,11 @@
     "activity_button_one_answer": "NOT_AVAILABLE",
     "activity_button_two": "VOID",
     "activity_button_two_answer": "NOT_AVAILABLE",
-    "large_image": "mp:attachments/1307048050224533524/1307109466616889404/un_logo_avec_le_texte_DESTROYER_et_un_theme_mechant.png?ex=67391c0d&is=6737ca8d&hm=c3a72e2f368f32a3e173a1ed7f58cd22bd15dc1b84cd859a8bae30d1f89148e5&=&format=webp&quality=lossless&width=620&height=620",
+    "large_image": "VOID",
     "large_text": "VOID",
-    "small_image": "mp:attachements/67484738743874387438/657438923487543/pdp.png",
+    "small_image": "VOID",
     "small_text": "VOID",
+
+
     "create_panel": true
 }
