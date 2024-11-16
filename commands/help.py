@@ -161,7 +161,7 @@ class HelpCommands(commands.Cog):
         await ctx.message.edit(f"""☄ __**{config_selfbot.selfbot_name} :**__ ☄
 
 🏯| __**{lang.text('help_raid')}:**__
-`{config_selfbot.prefix}nickall alias : renameallmembers <name>`: {lang.text('help_raid_nickall')}
+ `{config_selfbot.prefix}nickall alias : renameallmembers <name>`: {lang.text('help_raid_nickall')}
  `{config_selfbot.prefix}renameallchannel alias : rac <name>`: {lang.text('help_tools_rac')}
  `{config_selfbot.prefix}spam`: Spam. (`{config_selfbot.prefix}spam` 2 hello).
  `{config_selfbot.prefix}flood`: Flood.
